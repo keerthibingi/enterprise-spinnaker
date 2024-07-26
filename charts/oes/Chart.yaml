@@ -13,12 +13,6 @@ keywords:
   - Autopilot
 home: https://www.opsmx.com/
 dependencies:
-  - name: openldap
-    version: 1.2.3
-    condition: global.installOpenLdap
-  - name: spinnaker
-    version: 2.2.3
-    condition: installSpinnaker
   - name: minio
     version: 8.0.9
     condition: global.minio.enabled
